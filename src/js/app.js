@@ -1,4 +1,4 @@
-import { DatePicker } from "./test-module";
+import { Tabs } from "./test-module";
 import "../css/app.css";
 import "../scss/style.scss";
 
@@ -6,5 +6,5 @@ import "../scss/style.scss";
 
 window.onload = () => {
   console.log("Paste your code here!");
-  DatePicker.init();
+  Tabs.init();
 };

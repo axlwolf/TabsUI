@@ -1,17 +1,16 @@
-export const AppBae = (() => {
-  console.log("DatePicker");
+export const Tabs = (() => {
+  console.log("Tabs");
   /*
-  *   DOM refs
-  *
-  * */
+   *   DOM refs
+   *
+   * */
 
   const init = () => {
     console.log("Init app");
     eventHandlers();
   };
 
-  const eventHandlers = () => {
-  };
+  const eventHandlers = () => {};
 
   return {
     init,
